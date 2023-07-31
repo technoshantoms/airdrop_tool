@@ -1,43 +1,41 @@
 {
     "bitshares": {
-        "coreSymbol": "BTS",
-        "name": "BitShares",
-        "chainId": "4018d7844c78f6a6c41c6a552b898022310fc5dec06da467ee7905a8dad512c8",
+        "coreSymbol": "ACB",
+        "name": "Acloudbank",
+        "chainId": "841ad20f7171921d1ae04c3cb7c906980090859f36bca8137a0979ea94fd0ca2",
         "nodeList": [
             {
-                "url": "wss://node.xbts.io/ws"
-            },
-             {
-                "url": "wss://api.bts.mobi/ws"
+               "url": "wss://wss.acloudbank.com/ws"
             },
             {
-                "url": "wss://nexus01.co.uk/ws"
+               "url": "wss://wss.acloudbank.com/ws"
             },
             {
-                "url": "wss://api.bitshares.bhuz.info/ws"
+               "url": "wss://wss.acloudbank.com/ws"
             },
             {
-                "url": "wss://btsws.roelandp.nl/ws"
+               "url": "wss://wss.acloudbank.com/ws"
             }
+             
         ]
     },
     "bitshares_testnet": {
-        "coreSymbol": "TEST",
-        "name": "BitShares",
+        "coreSymbol": "ACB",
+        "name": "Acloudbank",
         "testnet": true,
-        "chainId": "39f5e2ede1f8bc1a3a54a7914414e3779e33193f1f5693510e73cb7a87617447",
+        "chainId": "841ad20f7171921d1ae04c3cb7c906980090859f36bca8137a0979ea94fd0ca2",
         "nodeList": [
             {
-                "url": "wss://testnet.xbts.io/ws"
+               "url": "wss://wss.acloudbank.com/ws"
             },
             {
-                "url": "wss://testnet.dex.trading/"
+               "url": "wss://wss.acloudbank.com/ws"
             },
             {
-                "url": "wss://api-testnet.61bts.com/ws"
+               "url": "wss://wss.acloudbank.com/ws"
             },
             {
-                "url": "wss://testnet.bitshares.im/ws"
+               "url": "wss://wss.acloudbank.com/ws"
             }
         ]
     },
